@@ -1,0 +1,15 @@
+{
+    "name": "jdark/exo-site-masque",
+    "type": "project",
+    "require": {
+        "twbs/bootstrap": "^4.6",
+        "components/jquery": "^3.5"
+    },
+    "license": "GPL 3.0",
+    "authors": [
+        {
+            "name": "The-Jay-San",
+            "email": "jul.a@free.fr"
+        }
+    ]
+}
