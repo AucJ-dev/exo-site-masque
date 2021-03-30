@@ -2,6 +2,7 @@
 
 namespace Jay\database;
 
+
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
@@ -17,7 +18,7 @@ $pdo->exec("
             EXECUTE 'DROP TABLE IF EXISTES ' || quote_ident(r.tablename) || ' CASCADE';
         END LOOP;
     END $$;
-")
+");
 
 
 $pdo->exec('CREATE TABLE users (
