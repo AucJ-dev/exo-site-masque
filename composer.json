@@ -1,9 +1,11 @@
 {
     "name": "jdark/exo-site-masque",
+    "description": "projet site PHP",
     "type": "project",
     "require": {
         "twbs/bootstrap": "^4.6",
-        "components/jquery": "^3.5"
+        "components/jquery": "^3.5",
+        "vlucas/phpdotenv": "^5.3"
     },
     "license": "GPL 3.0",
     "authors": [
@@ -11,5 +13,10 @@
             "name": "The-Jay-San",
             "email": "jul.a@free.fr"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jay\\": "./"
+        }
+    }
 }
